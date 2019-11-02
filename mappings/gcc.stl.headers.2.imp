@@ -1,0 +1,17 @@
+[
+  { include: ["<bits/basic_file.h>", private, "<ios>", public ] },
+  { include: ["<bits/c++allocator.h>", private, "<memory>", public ] },
+  { include: ["<bits/c++config.h>", private, "<version>", public ] },
+  { include: ["<bits/c++io.h>", private, "<ios>", public ] },
+  { include: ["<bits/c++locale.h>", private, "<locale>", public ] },
+  { include: ["<bits/cpu_defines.h>", private, "<iosfwd>", public ] },
+  { include: ["<bits/ctype_base.h>", private, "<locale>", public ] },
+  { include: ["<bits/ctype_inline.h>", private, "<locale>", public ] },
+  { include: ["<bits/cxxabi_tweaks.h>", private, "<cxxabi.h>", public ] },
+  { include: ["<bits/error_constants.h>", private, "<system_error>", public ] },
+  { include: ["<bits/messages_members.h>", private, "<locale>", public ] },
+  { include: ["<bits/opt_random.h>", private, "<random>", public ] },
+  { include: ["<bits/os_defines.h>", private, "<iosfwd>", public ] },
+  { include: ["<bits/time_members.h>", private, "<locale>", public ] },
+  { include: ["<ext/opt_random.h>", private, "<ext/random>", public ] },
+]
