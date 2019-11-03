@@ -1,0 +1,18 @@
+# Default include mappings for IWYU with GCC
+[
+  { ref: ./mappings/boost-all.imp },
+  { ref: ./mappings/gcc.libc.manual.imp },
+  { ref: ./mappings/gcc.libc.imp },
+  { ref: ./mappings/wildcard.imp },
+  { ref: ./mappings/gcc.symbols.manual.imp },
+  { ref: ./mappings/gcc.symbols.imp },
+  { ref: ./mappings/gcc.stl.headers.2.imp },
+  { ref: ./mappings/folly.imp },
+  { ref: ./mappings/clang.symbols.manual.imp },
+  { ref: ./mappings/gcc.stl.headers.imp },
+  { ref: ./mappings/stl.c.headers.imp },
+  { ref: ./mappings/boost-all-private.imp },
+  { ref: ./mappings/gcc.libc.2.imp },
+  { ref: ./mappings/gcc.stl.headers.manual.imp },
+  { ref: ./mappings/libcxx.manual.imp },
+]
