@@ -31,6 +31,8 @@ def check():
     for f in MappingPath.glob('*.imp'):
         for line in f.read_text().split('\n'):
             if pegs := parse(line):
+                if pegs[3] == 'public' and 'bits/' in pegs[2]:
+                    continue
                 if pegs[1] == 'public':
                     public.add(pegs[0])
                 else:
@@ -60,6 +62,8 @@ def check():
         result = []
         for line in f.read_text().split('\n'):
             if pegs := parse(line):
+                if pegs[3] == 'public' and 'bits/' in pegs[2]:
+                    continue
                 if pegs[2] in cycle_deps:
                     continue
                 if pegs[3] == 'public' and pegs[2] in inter:
